@@ -1,0 +1,22 @@
+{
+  "name": "demos",
+  "version": "1.0.0",
+  "main": "src/index.tsx",
+  "repository": "https://github.com/etherdata-blockchain/demos.git",
+  "author": "sirily11 <sirily1997@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "turbo": "^1.2.2",
+    "prettier": "^2.6.2"
+  },
+  "workspaces": [
+    "examples/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "start": "turbo run start"
+  }
+}
